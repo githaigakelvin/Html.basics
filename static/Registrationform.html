@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal information</legend>
+<label for="fname">Full Names:</label>
+<input type="text"id="fname"required placeholder="Enter your full names"><br><br>
+<label for="email">Email Address:</label>
+<input type="email"id="email" placeholder="chrome@gmail.com"><br>
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" placeholder="0715518695"><br>
+<label for="DOB">Date of Birth</label>
+<input type="date" id="DOB"><br>
+<label">Gender</label><br>
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender"><br>
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender"><br>
+</fieldset>
+<fieldset>
+    <legend>Academic information</legend>
+<label for="course">Course</label>
+<select id="course">
+<option value="full stack">Fullstack</option>
+<option value="cyber">Cybersecurity</option>
+<option value="data">Data science</option>
+<option value="AI">Artificial Intelligence</option>
+<option value="android">Android</option>
+</select><br><br>
+<label for="Myfile">Upload file</label><br>
+<input type="file" id="Myfile" accept="image/*"><br>
+<label for="terms">Accept terms and conditions</label>
+<input type="checkbox" id="terms"><br>
+</fieldset>
+<button type="submit">REGISTER</button><br>
+<button type="reset">CLEAR FORM</button>
+
+</form>
+</body>
+</html>

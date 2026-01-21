@@ -1,0 +1,39 @@
+h2{
+    color:rgb(17, 16, 17);
+    text-align: centre;
+    text-decoration: underline;
+}
+body{
+    background-color:rgb(158, 212, 158) ;
+    font-family: sans-serif;
+
+}
+table{
+    width: 50%;
+    margin:20px auto;
+    border:1px black;
+}
+th,td{
+    /* border-top-width: 0ch; */
+    /* border-color: aqua; */
+    text-align: center;
+    border-color: azure 1px dotted;
+}
+td{
+    border:1px rgb(63, 60, 57) solid;
+}
+p{
+    color:blue;
+    font: 11px;
+}
+h3{
+    text-decoration: underline;
+    color:aqua
+}
+h4{
+    color:rgb(24, 21, 21)
+}
+h1{
+    text-decoration: underline;
+    text-indent: 2px;
+}

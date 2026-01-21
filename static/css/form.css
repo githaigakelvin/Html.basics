@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#myform{
+    border:1px solid black;
+    width:300px;
+    margin:auto;
+    padding: 20px ;
+    background-color:lightgreen;
+    border-radius:5px;
+}
+#h2{
+    text-align: center;
+    text-decoration: underline;
+}
+input,textarea{
+    border: 1px solid blueviolet;
+    width: 100%;
+    border-radius:5px;
+    padding: 5px;
+}
+label{
+    font-weight:bold;
+    display:block;
+    line-break: normal;
+
+}
+input[type="submit"]{
+     color:black;
+     background-color:green;
+     margin-top: 5px;
+     font-weight:bold ;
+     border:none;
+     cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+}

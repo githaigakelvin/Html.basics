@@ -1,0 +1,76 @@
+body{
+    background-color:white;
+    font-family:sans-serif;
+    margin:auto;
+    
+}
+#abc{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+p{
+    text-align:1px;
+}
+#one{
+    color: rgb(25, 69, 107);
+}
+.hello{
+    color: brown;
+    text-align:left align;
+    text-decoration:blueviolet ;
+}
+#header{
+   background-color: goldenrod;
+   text-align: center;
+   padding:20px;
+   border:1px solid black;}
+   #content{
+    background-color: rgb(48, 41, 41);
+    width:80%;
+    padding:20px;
+
+   }
+   .chrome{
+    background-color: rgb(15, 50, 80);
+    margin-top: 2%;
+    padding:30px;
+    border:1px solid black;
+    border-radius: 15px;
+    text-align: center;
+   }
+   #hero{
+    text-align: center;
+    height:250px;
+    background-image: url(../css/ldscapeimg);
+    background-size:cover;
+    background-position: centre;
+    padding-top: 90px;
+    color: rgb(17, 64, 110);
+   }
+   #nav{
+    padding: 10px;
+    background-color: lightgrey;
+   }
+   
+   #nav ul li{
+    display: inline;
+    margin:0 15px;
+   }
+   #nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold ;
+    padding:8px 12px;
+   }
+   #nav ul li a:hover{
+    background-color: blue;
+    padding: 20px;
+
+   }
+   
+   
+   
+
+   
